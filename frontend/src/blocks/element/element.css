@@ -1,0 +1,11 @@
+.element {
+  max-width: 282px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  background: #FFFFFF;
+}

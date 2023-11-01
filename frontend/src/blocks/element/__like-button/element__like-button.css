@@ -1,0 +1,24 @@
+.element__like-button {
+  background: transparent url(../../../images/like/like.svg);
+  background-size: contain;
+  width: 22px;
+  height: 19px;
+  border: none;
+  background-repeat: no-repeat;
+  margin-top: 4px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.5s linear;
+  padding: 0;
+}
+
+.element__like-button:hover {
+  opacity: 0.5;
+}
+
+/*for 650*/
+@media screen and (max-width: 650px) {
+  .element__like-button {
+    margin-top: 5px;
+  }
+}

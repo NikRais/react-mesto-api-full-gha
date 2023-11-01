@@ -1,0 +1,29 @@
+.header__nav {
+  display: flex;
+  margin: 6px 0 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.header__nav span {
+  margin-right: 24px;
+  color: #FFFFFF;
+}
+
+
+.header__sign-out {
+  display: block;
+  max-height: 22px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #A9A9A9;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+.header__sign-out:hover {
+  opacity: 0.6;
+}
