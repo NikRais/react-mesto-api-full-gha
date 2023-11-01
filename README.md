@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP-адрес: 51.250.107.64
+IP-адрес 51.250.107.64
 
 Frontend https://mesto.nikrais.nomoredomainsrocks.ru
 
