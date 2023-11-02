@@ -45,7 +45,7 @@ module.exports.createUser = (req, res, next) => {
       about: req.body.about,
       avatar: req.body.avatar,
     }))
-    .then((user) => res.status(serverResponse.OK_REQUEST).send({
+    .then((user) => res.status(serverResponse.CREATED).send({
       email: user.email,
       name: user.name,
       about: user.about,
